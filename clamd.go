@@ -239,7 +239,7 @@ func parseErr(res string, err error) (bool, error) {
 		return true, nil
 	}
 	if strings.HasSuffix(res, resFound) {
-		return false, nil
+		return false, fmt.Errorf("%s", res)
 	}
 	if strings.HasSuffix(res, resNoSuchFile) {
 		return false, errors.Join(ErrNoSuchFileOrDir, fmt.Errorf("%s", res))
