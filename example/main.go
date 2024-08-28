@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/lyimmi/go-clamd"
+	"github.com/thc2cat/go-clamd"
 	"os"
 )
 

@@ -1,3 +1,3 @@
-module github.com/lyimmi/go-clamd
+module github.com/thc2cat/go-clamd
 
 go 1.20
