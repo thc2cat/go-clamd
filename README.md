@@ -1,4 +1,5 @@
-# go-clamd 
+# go-clamd is a copy from [https://github.com/dutchcoders/go-clamd](https://github.com/dutchcoders/go-clamd) 
+
 [![Go build & test](https://github.com/Lyimmi/go-clamd/actions/workflows/go-build-test.yml/badge.svg)](https://github.com/Lyimmi/go-clamd/actions/workflows/go-build-test.yml)
 
 A Go client for ClamAV daemon over TCP or UNIX socket.
